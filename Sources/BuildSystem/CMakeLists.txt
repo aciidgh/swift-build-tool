@@ -1,0 +1,12 @@
+add_llbuild_library(llbuildBuildSystem
+  BuildExecutionQueue.cpp
+  BuildFile.cpp
+  BuildKey.cpp
+  BuildNode.cpp
+  BuildSystem.cpp
+  BuildSystemFrontend.cpp
+  BuildValue.cpp
+  ExternalCommand.cpp
+  LaneBasedExecutionQueue.cpp
+  SwiftTools.cpp
+  )
